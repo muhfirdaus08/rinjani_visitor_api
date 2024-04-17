@@ -32,7 +32,7 @@ route.use('*', errorrHandling);
 //     data: null,
 //   });
 // });
-route.use('*', (req, res) => {
+route.use('/test', (req, res) => {
   res.send('Success!')
 });
 
