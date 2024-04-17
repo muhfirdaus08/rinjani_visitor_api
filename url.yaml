@@ -1,0 +1,12 @@
+cmd: node app.js
+cwd: /home/rinjaniv/api-v5.rinjanivisitor.com
+env:
+  port: 8080
+log:
+  file: /home/rinjaniv/api-v5.rinjanivisitor.com/nodejs.log
+  age: 86400
+  num: 3
+  size: 10
+  timestamp: true
+wait: 60
+retries: 3

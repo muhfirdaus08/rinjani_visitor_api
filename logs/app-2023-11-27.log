@@ -1,0 +1,91 @@
+ [LOGGER] 2023-11-27 01:40:29.998 AM error : uncaughtException: defaultValue is not defined
+ReferenceError: defaultValue is not defined
+    at file:///Users/muh.firdaus/Documents/Daus/Skripsi/API/Rest-API-Rinjani/src/models/productModel.js:25:7
+    at ModuleJob.run (node:internal/modules/esm/module_job:194:25)
+ [LOGGER] 2023-11-27 02:03:48.983 AM error : uncaughtException: Cannot read properties of undefined (reading 'post')
+TypeError: Cannot read properties of undefined (reading 'post')
+    at file:///Users/muh.firdaus/Documents/Daus/Skripsi/API/Rest-API-Rinjani/src/routes/categoryRoute.js:13:16
+    at ModuleJob.run (node:internal/modules/esm/module_job:194:25)
+ [LOGGER] 2023-11-27 02:04:17.316 AM error : uncaughtException: Cannot read properties of undefined (reading 'get')
+TypeError: Cannot read properties of undefined (reading 'get')
+    at file:///Users/muh.firdaus/Documents/Daus/Skripsi/API/Rest-API-Rinjani/src/routes/categoryRoute.js:17:16
+    at ModuleJob.run (node:internal/modules/esm/module_job:194:25)
+ [LOGGER] 2023-11-27 02:04:30.675 AM error : uncaughtException: upda is not defined
+ReferenceError: upda is not defined
+    at file:///Users/muh.firdaus/Documents/Daus/Skripsi/API/Rest-API-Rinjani/src/routes/categoryRoute.js:16:59
+    at ModuleJob.run (node:internal/modules/esm/module_job:194:25)
+ [LOGGER] 2023-11-27 02:04:42.943 AM error : uncaughtException: deleteCategory is not defined
+ReferenceError: deleteCategory is not defined
+    at file:///Users/muh.firdaus/Documents/Daus/Skripsi/API/Rest-API-Rinjani/src/routes/categoryRoute.js:15:57
+    at ModuleJob.run (node:internal/modules/esm/module_job:194:25)
+ [LOGGER] 2023-11-27 02:04:48.134 AM error : uncaughtException: deleteCategory is not defined
+ReferenceError: deleteCategory is not defined
+    at file:///Users/muh.firdaus/Documents/Daus/Skripsi/API/Rest-API-Rinjani/src/routes/categoryRoute.js:15:57
+    at ModuleJob.run (node:internal/modules/esm/module_job:194:25)
+ [LOGGER] 2023-11-27 02:05:43.298 AM error : uncaughtException: de is not defined
+ReferenceError: de is not defined
+    at file:///Users/muh.firdaus/Documents/Daus/Skripsi/API/Rest-API-Rinjani/src/routes/categoryRoute.js:19:60
+    at ModuleJob.run (node:internal/modules/esm/module_job:194:25)
+ [LOGGER] 2023-11-27 02:05:44.772 AM error : uncaughtException: dele is not defined
+ReferenceError: dele is not defined
+    at file:///Users/muh.firdaus/Documents/Daus/Skripsi/API/Rest-API-Rinjani/src/routes/categoryRoute.js:19:60
+    at ModuleJob.run (node:internal/modules/esm/module_job:194:25)
+ [LOGGER] 2023-11-27 02:15:42.067 AM error : controllers/categoryController.js:deleteCategory - Cannot delete or update a parent row: a foreign key constraint fails (`rinjani_visitor_test`.`subcategory`, CONSTRAINT `subcategory_ibfk_1` FOREIGN KEY (`category_id`) REFERENCES `category` (`category_id`) ON DELETE RESTRICT ON UPDATE RESTRICT)
+ [LOGGER] 2023-11-27 02:26:17.375 AM error : controllers/facilityController.js:updateaddOns - Unknown column 'idaddons' in 'where clause'
+ [LOGGER] 2023-11-27 02:26:43.226 AM error : controllers/facilityController.js:updateaddOns - Unknown column 'addAddOns' in 'where clause'
+ [LOGGER] 2023-11-27 02:31:32.434 AM error : controllers/facilityController.js:addAddOns - WHERE parameter "add_ons_id" has invalid "undefined" value
+ [LOGGER] 2023-11-27 02:33:48.765 AM error : controllers/facilityController.js:addAddOns - WHERE parameter "add_ons_id" has invalid "undefined" value
+ [LOGGER] 2023-11-27 02:35:08.404 AM error : controllers/facilityController.js:addAddOns - WHERE parameter "add_ons_id" has invalid "undefined" value
+ [LOGGER] 2023-11-27 02:35:09.890 AM error : controllers/facilityController.js:addAddOns - WHERE parameter "add_ons_id" has invalid "undefined" value
+ [LOGGER] 2023-11-27 02:43:55.979 AM error : controllers/facilityController.js:setAddOns - AddOns is not defined
+ [LOGGER] 2023-11-27 02:45:55.780 AM error : controllers/facilityController.js:getAllAddOns - AddOns is not defined
+ [LOGGER] 2023-11-27 11:08:08.855 AM error : controllers/userController.js:favorite - Cannot add or update a child row: a foreign key constraint fails (`rinjani_visitor_test`.`favorites`, CONSTRAINT `favorites_ibfk_2` FOREIGN KEY (`product_id`) REFERENCES `product` (`product_id`) ON DELETE CASCADE ON UPDATE RESTRICT)
+ [LOGGER] 2023-11-27 11:08:24.099 AM error : controllers/userController.js:favorite - Cannot add or update a child row: a foreign key constraint fails (`rinjani_visitor_test`.`favorites`, CONSTRAINT `favorites_ibfk_2` FOREIGN KEY (`product_id`) REFERENCES `product` (`product_id`) ON DELETE CASCADE ON UPDATE RESTRICT)
+ [LOGGER] 2023-11-27 11:15:16.660 AM error : uncaughtException: get is not defined
+ReferenceError: get is not defined
+    at file:///Users/muh.firdaus/Documents/Daus/Skripsi/API/Rest-API-Rinjani/src/routes/userRoute.js:40:48
+    at ModuleJob.run (node:internal/modules/esm/module_job:194:25)
+ [LOGGER] 2023-11-27 11:15:18.235 AM error : uncaughtException: getAl is not defined
+ReferenceError: getAl is not defined
+    at file:///Users/muh.firdaus/Documents/Daus/Skripsi/API/Rest-API-Rinjani/src/routes/userRoute.js:40:48
+    at ModuleJob.run (node:internal/modules/esm/module_job:194:25)
+ [LOGGER] 2023-11-27 12:10:09.138 PM error : controllers/productController.js:getRinjaniDetail - Cannot access 'RinjaniModel' before initialization
+ [LOGGER] 2023-11-27 12:10:58.525 PM error : uncaughtException: RinjaniModelBaru is not defined
+ReferenceError: RinjaniModelBaru is not defined
+    at file:///Users/muh.firdaus/Documents/Daus/Skripsi/API/Rest-API-Rinjani/src/models/rinjaniPackageModel.js:52:16
+    at ModuleJob.run (node:internal/modules/esm/module_job:194:25)
+ [LOGGER] 2023-11-27 12:11:00.684 PM error : uncaughtException: RinjaniModelBaru is not defined
+ReferenceError: RinjaniModelBaru is not defined
+    at file:///Users/muh.firdaus/Documents/Daus/Skripsi/API/Rest-API-Rinjani/src/models/rinjaniPackageModel.js:44:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:194:25)
+ [LOGGER] 2023-11-27 12:11:06.817 PM error : uncaughtException: RinjaniModel is not defined
+ReferenceError: RinjaniModel is not defined
+    at file:///Users/muh.firdaus/Documents/Daus/Skripsi/API/Rest-API-Rinjani/src/models/rinjaniPackageModel.js:38:16
+    at ModuleJob.run (node:internal/modules/esm/module_job:194:25)
+ [LOGGER] 2023-11-27 12:11:17.648 PM error : uncaughtException: RinjaniModel is not defined
+ReferenceError: RinjaniModel is not defined
+    at file:///Users/muh.firdaus/Documents/Daus/Skripsi/API/Rest-API-Rinjani/src/models/rinjaniPackageModel.js:38:16
+    at ModuleJob.run (node:internal/modules/esm/module_job:194:25)
+ [LOGGER] 2023-11-27 12:11:20.954 PM error : uncaughtException: RinjaniModel is not defined
+ReferenceError: RinjaniModel is not defined
+    at file:///Users/muh.firdaus/Documents/Daus/Skripsi/API/Rest-API-Rinjani/src/models/rinjaniPackageModel.js:38:16
+    at ModuleJob.run (node:internal/modules/esm/module_job:194:25)
+ [LOGGER] 2023-11-27 12:11:45.933 PM error : uncaughtException: RinjaniModel is not defined
+ReferenceError: RinjaniModel is not defined
+    at file:///Users/muh.firdaus/Documents/Daus/Skripsi/API/Rest-API-Rinjani/src/models/rinjaniPackageModel.js:38:16
+    at ModuleJob.run (node:internal/modules/esm/module_job:194:25)
+ [LOGGER] 2023-11-27 12:16:23.601 PM error : controllers/productController.js:setRinjani - RinjaniModel is not defined
+ [LOGGER] 2023-11-27 12:17:28.839 PM error : controllers/productController.js:getRinjaniDetail - Cannot read properties of undefined (reading 'description')
+ [LOGGER] 2023-11-27 12:18:17.578 PM error : controllers/productController.js:getRinjaniDetail - Cannot access 'ModelRinjani' before initialization
+ [LOGGER] 2023-11-27 03:06:45.285 PM error : controllers/userController.js:updateUser - user_id is not defined
+ [LOGGER] 2023-11-27 03:39:17.542 PM error : controllers/userController.js:forgotPassword - Cannot read properties of null (reading 'email')
+ [LOGGER] 2023-11-27 03:39:52.411 PM error : controllers/userController.js:forgotPassword - Cannot read properties of null (reading 'email')
+ [LOGGER] 2023-11-27 03:40:10.655 PM error : controllers/userController.js:forgotPassword - user_email is not defined
+ [LOGGER] 2023-11-27 03:41:07.878 PM error : controllers/userController.js:forgotPassword - Cannot read properties of null (reading 'email')
+ [LOGGER] 2023-11-27 03:41:12.534 PM error : controllers/userController.js:forgotPassword - Cannot read properties of null (reading 'email')
+ [LOGGER] 2023-11-27 07:45:38.463 PM error : controllers/bookingController.js:setBooking - Cannot add or update a child row: a foreign key constraint fails (`rinjani_visitor_test`.`booking`, CONSTRAINT `booking_ibfk_2` FOREIGN KEY (`user_id`) REFERENCES `user` (`user_id`) ON DELETE RESTRICT ON UPDATE RESTRICT)
+ [LOGGER] 2023-11-27 07:46:33.431 PM error : controllers/bookingController.js:setBooking - Cannot add or update a child row: a foreign key constraint fails (`rinjani_visitor_test`.`booking`, CONSTRAINT `booking_ibfk_2` FOREIGN KEY (`user_id`) REFERENCES `user` (`user_id`) ON DELETE RESTRICT ON UPDATE RESTRICT)
+ [LOGGER] 2023-11-27 07:47:34.563 PM error : controllers/bookingController.js:setBooking - Cannot add or update a child row: a foreign key constraint fails (`rinjani_visitor_test`.`booking`, CONSTRAINT `booking_ibfk_2` FOREIGN KEY (`user_id`) REFERENCES `user` (`user_id`) ON DELETE RESTRICT ON UPDATE RESTRICT)
+ [LOGGER] 2023-11-27 07:49:31.945 PM error : controllers/bookingController.js:setBooking - Lock wait timeout exceeded; try restarting transaction
+ [LOGGER] 2023-11-27 07:58:03.861 PM error : controllers/bookingController.js:setBooking - Cannot add or update a child row: a foreign key constraint fails (`rinjani_visitor_test`.`booking`, CONSTRAINT `booking_ibfk_2` FOREIGN KEY (`user_id`) REFERENCES `user` (`user_id`) ON DELETE RESTRICT ON UPDATE RESTRICT)
+ [LOGGER] 2023-11-27 10:36:39.552 PM error : controllers/userController.js:avatarUser - user is not defined
