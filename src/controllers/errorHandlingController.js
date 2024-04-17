@@ -6,7 +6,7 @@ const errorrHandling = (err, req, res, next) => {
   logger.error(err);
   res.status(500).json({
     errors: [message],
-    message: "Internal Server Error",
+    message: "Internal Server Error bos",
     data: null,
   });
 };
