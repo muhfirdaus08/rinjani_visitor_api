@@ -24,7 +24,7 @@ route.use('/api', orderRouter);
 route.use('/api', reviewRouter);
 route.use('/api', dashboardRouter);
 
-// route.use('*', errorrHandling);
+route.use('*', errorrHandling);
 // route.use("*", (req, res) => {
 //   res.status(403).json({
 //     errors: ["Page Not Found"],
@@ -32,13 +32,8 @@ route.use('/api', dashboardRouter);
 //     data: null,
 //   });
 // });
-
-route.use('*', (req, res, next) => {
-  try {
-    res.send('Success!');
-  } catch (error) {
-    errorrHandling(error, req, res, next); 
-  }
+route.use('*', (req, res) => {
+  res.send('Success!')
 });
 
 export default route;
