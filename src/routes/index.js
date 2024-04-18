@@ -25,15 +25,13 @@ route.use('/api', reviewRouter);
 route.use('/api', dashboardRouter);
 
 route.use('*', errorrHandling);
-// route.use("*", (req, res) => {
-//   res.status(403).json({
-//     errors: ["Page Not Found"],
-//     message: "Forbidden",
-//     data: null,
-//   });
-// });
-route.use('/test', (req, res) => {
-  res.send('Success!')
+route.use("*", (req, res) => {
+  res.status(403).json({
+    errors: ["Page Not Found"],
+    message: "Forbidden",
+    data: null,
+  });
 });
+
 
 export default route;

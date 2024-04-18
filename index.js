@@ -51,7 +51,7 @@ app.use(appMiddleware);
 //FOR DEV
 
 app.listen(PORT, () => {
-  console.log(`Server running on ${serverRun}:${PORT}`);
+  console.log(`Server running on ${serverRun}`);
 });
 
 //FOR PROD
