@@ -65,7 +65,7 @@ const setProduct = async (req, res, next) => {
         });
       }
 
-      const folderName = 'avatar-rinjani';
+      const folderName = 'thumbnails';
       const fileName = `${uuidv4()}-${req.file.originalname}`;
       const filePath = `${folderName}/${fileName}`;
 
@@ -95,7 +95,7 @@ const setProduct = async (req, res, next) => {
       blobStream.on('finish', async () => {
         url = `https://firebasestorage.googleapis.com/v0/b/${
           bucket.name
-        }/o/${encodeURIComponent(filePath)}?alt=media`;
+        }/o/${encodeURIComponent(filePath)}?alt=media&token=${metadata.metadata.firebaseStorageDownloadTokens}`;
       });
 
       const blobStreamEnd = promisify(blobStream.end).bind(blobStream);

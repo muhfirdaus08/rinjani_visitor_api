@@ -1,0 +1,1050 @@
+ [LOGGER] 2024-04-24 06:11:49.314 PM error : uncaughtException: admin.storage is not a function
+TypeError: admin.storage is not a function
+    at file:///Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani%20GitHub%20New/src/middleware/multer_firebase.js:4:22
+    at ModuleJob.run (node:internal/modules/esm/module_job:194:25)
+ [LOGGER] 2024-04-24 06:11:50.399 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:11:50.401 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:11:50.402 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:11:50.403 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:11:50.404 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:13:58.509 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:13:58.512 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:13:58.513 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:13:58.514 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:13:58.514 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:13:58.515 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:13:58.515 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:13:58.516 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:13:58.518 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:13:58.518 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:13:58.519 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:13:58.520 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:13:58.521 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:13:58.521 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:13:58.521 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:13:58.521 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:13:58.522 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:13:58.522 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:14:09.680 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:14:09.682 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:14:09.682 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:14:09.683 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:14:09.683 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:14:09.683 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:14:09.684 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:14:09.684 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:14:09.685 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:14:09.685 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:14:09.686 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:14:09.686 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:14:09.686 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:14:09.687 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:14:09.687 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:14:09.687 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:14:09.687 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:14:09.687 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:14:26.069 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:14:26.073 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:14:26.074 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:14:26.075 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:14:26.075 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:14:26.076 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:14:26.076 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:14:26.077 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:14:26.079 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:14:26.080 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:14:26.080 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:14:26.081 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:14:26.081 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:14:26.082 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:14:26.082 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:14:26.082 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:14:26.083 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:14:26.084 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:14:39.295 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:14:39.300 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:14:39.302 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:14:39.302 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:14:39.303 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:14:39.304 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:14:39.305 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:14:39.306 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:14:39.311 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:14:39.312 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:14:39.313 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:14:39.313 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:14:39.314 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:14:39.315 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:14:39.315 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:14:39.315 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:14:39.316 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:14:39.316 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:15:01.261 PM error : uncaughtException: connect ETIMEDOUT
+SequelizeConnectionError: connect ETIMEDOUT
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:15:01.264 PM error : uncaughtException: connect ETIMEDOUT
+SequelizeConnectionError: connect ETIMEDOUT
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:15:01.265 PM error : uncaughtException: connect ETIMEDOUT
+SequelizeConnectionError: connect ETIMEDOUT
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:15:01.266 PM error : uncaughtException: connect ETIMEDOUT
+SequelizeConnectionError: connect ETIMEDOUT
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:15:01.267 PM error : uncaughtException: connect ETIMEDOUT
+SequelizeConnectionError: connect ETIMEDOUT
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:15:01.268 PM error : uncaughtException: connect ETIMEDOUT
+SequelizeConnectionError: connect ETIMEDOUT
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:15:01.268 PM error : uncaughtException: connect ETIMEDOUT
+SequelizeConnectionError: connect ETIMEDOUT
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:15:01.269 PM error : uncaughtException: connect ETIMEDOUT
+SequelizeConnectionError: connect ETIMEDOUT
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:15:01.272 PM error : uncaughtException: connect ETIMEDOUT
+SequelizeConnectionError: connect ETIMEDOUT
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:15:01.273 PM error : uncaughtException: connect ETIMEDOUT
+SequelizeConnectionError: connect ETIMEDOUT
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:15:01.274 PM error : uncaughtException: connect ETIMEDOUT
+SequelizeConnectionError: connect ETIMEDOUT
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:15:01.275 PM error : uncaughtException: connect ETIMEDOUT
+SequelizeConnectionError: connect ETIMEDOUT
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:15:01.275 PM error : uncaughtException: connect ETIMEDOUT
+SequelizeConnectionError: connect ETIMEDOUT
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:15:01.275 PM error : uncaughtException: connect ETIMEDOUT
+SequelizeConnectionError: connect ETIMEDOUT
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:15:01.276 PM error : uncaughtException: connect ETIMEDOUT
+SequelizeConnectionError: connect ETIMEDOUT
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:15:01.276 PM error : uncaughtException: connect ETIMEDOUT
+SequelizeConnectionError: connect ETIMEDOUT
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:15:01.276 PM error : uncaughtException: connect ETIMEDOUT
+SequelizeConnectionError: connect ETIMEDOUT
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:15:01.277 PM error : uncaughtException: connect ETIMEDOUT
+SequelizeConnectionError: connect ETIMEDOUT
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:102:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:15:04.658 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:15:04.660 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:15:04.660 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:15:04.661 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:15:04.661 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:15:04.661 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:15:04.662 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:15:04.662 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:15:04.663 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:15:04.663 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:15:04.664 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:15:04.664 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:15:04.664 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:15:04.665 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:15:04.665 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:15:04.665 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:15:04.665 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:15:04.665 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:15:20.647 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:15:20.648 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:15:20.648 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:15:20.649 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:15:20.649 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:15:20.649 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:15:20.649 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:15:20.650 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:15:20.651 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:15:20.651 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:15:20.651 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:15:20.651 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:15:20.651 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:15:20.652 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:15:20.652 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:15:20.652 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:15:20.652 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:15:20.652 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:15:21.823 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:15:21.825 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:15:21.825 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:15:21.826 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:15:21.826 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:15:21.826 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:15:21.827 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:15:21.827 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:15:21.828 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:15:21.828 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:15:21.829 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:15:21.829 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:15:21.829 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:15:21.830 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:15:21.830 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:15:21.830 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:15:21.830 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:15:21.830 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:15:40.992 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:15:40.993 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:15:40.994 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:15:40.994 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:15:40.994 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:15:40.995 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:15:40.995 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:15:40.995 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:15:40.996 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:15:40.997 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:15:40.997 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:15:40.997 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:15:40.997 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:15:40.998 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:15:40.998 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:15:40.998 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:15:40.998 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:15:40.998 PM error : uncaughtException: connect ECONNREFUSED 36.86.63.182:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 36.86.63.182:3306
+    at ConnectionManager.connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)
+    at async /Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani GitHub New/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+ [LOGGER] 2024-04-24 06:28:43.178 PM error : controllers/userController.js:avatarUser - {
+  "error": {
+    "code": 403,
+    "message": "firebase-adminsdk-i5qka@kasa-talk-storage.iam.gserviceaccount.com does not have storage.objects.create access to the Google Cloud Storage object. Permission 'storage.objects.create' denied on resource (or it may not exist).",
+    "errors": [
+      {
+        "message": "firebase-adminsdk-i5qka@kasa-talk-storage.iam.gserviceaccount.com does not have storage.objects.create access to the Google Cloud Storage object. Permission 'storage.objects.create' denied on resource (or it may not exist).",
+        "domain": "global",
+        "reason": "forbidden"
+      }
+    ]
+  }
+}
+
+ [LOGGER] 2024-04-24 06:31:35.321 PM error : controllers/userController.js:avatarUser - {
+  "error": {
+    "code": 403,
+    "message": "firebase-adminsdk-i5qka@kasa-talk-storage.iam.gserviceaccount.com does not have storage.objects.create access to the Google Cloud Storage object. Permission 'storage.objects.create' denied on resource (or it may not exist).",
+    "errors": [
+      {
+        "message": "firebase-adminsdk-i5qka@kasa-talk-storage.iam.gserviceaccount.com does not have storage.objects.create access to the Google Cloud Storage object. Permission 'storage.objects.create' denied on resource (or it may not exist).",
+        "domain": "global",
+        "reason": "forbidden"
+      }
+    ]
+  }
+}
+
+ [LOGGER] 2024-04-24 07:06:17.968 PM error : uncaughtException: setBankPayment is not defined
+ReferenceError: setBankPayment is not defined
+    at file:///Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani%20GitHub%20New/src/routes/paymentRoute.js:21:3
+    at ModuleJob.run (node:internal/modules/esm/module_job:194:25)
+ [LOGGER] 2024-04-24 07:06:27.335 PM error : uncaughtException: setBankPayment is not defined
+ReferenceError: setBankPayment is not defined
+    at file:///Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani%20GitHub%20New/src/routes/paymentRoute.js:22:3
+    at ModuleJob.run (node:internal/modules/esm/module_job:194:25)
+ [LOGGER] 2024-04-24 07:06:36.449 PM error : uncaughtException: setWisePayment is not defined
+ReferenceError: setWisePayment is not defined
+    at file:///Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani%20GitHub%20New/src/routes/paymentRoute.js:35:3
+    at ModuleJob.run (node:internal/modules/esm/module_job:194:25)
+ [LOGGER] 2024-04-24 07:07:12.122 PM error : uncaughtException: setBankPayment is not defined
+ReferenceError: setBankPayment is not defined
+    at file:///Users/muh.firdaus/Documents/Daus/Skripsi/APP/API/Rest-API-Rinjani%20GitHub%20New/src/routes/paymentRoute.js:22:3
+    at ModuleJob.run (node:internal/modules/esm/module_job:194:25)

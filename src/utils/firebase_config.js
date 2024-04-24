@@ -20,7 +20,7 @@ const serviceAccount = {
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
-  storageBucket: 'gs://kasa-talk-storage.appspot.com',
+  storageBucket: 'gs://rinjani-visitor-16c47.appspot.com',
 });
 
 export default admin;
