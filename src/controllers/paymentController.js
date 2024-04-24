@@ -1,10 +1,13 @@
 import moment from 'moment';
 import 'dotenv/config';
 import sequelize from '../utils/db.js';
+import { v4 as uuidv4 } from 'uuid';
+import { promisify } from 'util';
 import { dataValid } from '../validation/dataValidation.js';
 import Payment from '../models/paymentModel.js';
 import BankPayment from '../models/bankPaymentModel.js';
 import Booking from '../models/bookingModel.js';
+import { bucket } from '../middleware/multer_firebase.js';
 import { status as statusBooking } from './bookingController.js';
 import WisePayment from '../models/wisePaymentModel.js';
 import User from '../models/userModel.js';
@@ -85,10 +88,10 @@ const setBankPayment = async (req, res, next) => {
     bookingId: 'required',
     bankName: 'required',
     bankAccountName: 'required',
-    imageProofTransfer: 'required',
   };
   try {
     const bankPayment = await dataValid(valid, req.body);
+    const uploadedFileName = req.file;
 
     if (bankPayment.message.length > 0) {
       return res.status(400).json({
@@ -127,10 +130,66 @@ const setBankPayment = async (req, res, next) => {
       });
     }
 
+    let urlImageProofTransfer = "";
+
+    if (uploadedFileName) {
+      const allowedImageFormats = ['image/jpeg', 'image/jpg', 'image/png'];
+
+      if (!allowedImageFormats.includes(req.file.mimetype)) {
+        return res.status(400).json({
+          errors: [
+            'Invalid file format. Only JPEG, JPG, and PNG images are allowed.',
+          ],
+          message: 'Update Avatar Failed',
+          data: null,
+        });
+      }
+
+      const folderName = 'rinjanivisitor';
+      const fileName = `${uuidv4()}-${req.file.originalname}`;
+      const filePath = `${folderName}/${fileName}`;
+
+      const metadata = {
+        metadata: {
+          firebaseStorageDownloadTokens: uuidv4(),
+        },
+        contentType: req.file.mimetype,
+        cacheControl: 'public, max-age=31536000',
+      };
+
+      const blob = bucket.file(filePath);
+      const blobStream = blob.createWriteStream({
+        metadata,
+        gzip: true,
+      });
+
+      blobStream.on('error', (error) =>
+        res.status(500).json({
+          errors: [error.message],
+          message: 'Update Avatar Failed',
+          data: null,
+        })
+      );
+
+      blobStream.on('finish', async () => {
+        urlImageProofTransfer = `https://firebasestorage.googleapis.com/v0/b/${
+          bucket.name
+        }/o/${encodeURIComponent(filePath)}?alt=media&token=${
+          metadata.metadata.firebaseStorageDownloadTokens
+        }`;
+      });
+
+      const blobStreamEnd = promisify(blobStream.end).bind(blobStream);
+
+      await blobStreamEnd(req.file.buffer);
+    } else {
+      urlImageProofTransfer = req.body.imageProofTransfer;
+    }
+
     const result = await BankPayment.create({
       bankName: bankPayment.data.bankName,
       bankAccountName: bankPayment.data.bankAccountName,
-      imageProofTransfer: req.body.imageProofTransfer,
+      imageProofTransfer: urlImageProofTransfer,
       paymentId: getPaymentId.paymentId,
     });
 
@@ -196,7 +255,9 @@ const setBankPayment = async (req, res, next) => {
       bankName: result.bankName,
       bankAccountName: result.bankAccountName,
       imageProofTransfer: result.imageProofTransfer,
-      createdAt: moment(result.createdAt).tz('Asia/Singapore').format('YYYY-MM-DD HH:mm:ss'),
+      createdAt: moment(result.createdAt)
+        .tz('Asia/Singapore')
+        .format('YYYY-MM-DD HH:mm:ss'),
     };
 
     let sendPaymentMails = [];
@@ -244,10 +305,10 @@ const setWisePayment = async (req, res, next) => {
     bookingId: 'required',
     wiseEmail: 'required,isEmail',
     wiseAccountName: 'required',
-    imageProofTransfer: 'required',
   };
   try {
     const wisePaymentBody = await dataValid(valid, req.body);
+    const uploadedFileName = req.file;
 
     if (wisePaymentBody.message.length > 0) {
       return res.status(400).json({
@@ -286,16 +347,68 @@ const setWisePayment = async (req, res, next) => {
       });
     }
 
-    console.log(wisePaymentBody.data);
+    let urlImageProofTransfer = "";
+
+    if (uploadedFileName) {
+      const allowedImageFormats = ['image/jpeg', 'image/jpg', 'image/png'];
+
+      if (!allowedImageFormats.includes(req.file.mimetype)) {
+        return res.status(400).json({
+          errors: [
+            'Invalid file format. Only JPEG, JPG, and PNG images are allowed.',
+          ],
+          message: 'Update Avatar Failed',
+          data: null,
+        });
+      }
+
+      const folderName = 'rinjanivisitor';
+      const fileName = `${uuidv4()}-${req.file.originalname}`;
+      const filePath = `${folderName}/${fileName}`;
+
+      const metadata = {
+        metadata: {
+          firebaseStorageDownloadTokens: uuidv4(),
+        },
+        contentType: req.file.mimetype,
+        cacheControl: 'public, max-age=31536000',
+      };
+
+      const blob = bucket.file(filePath);
+      const blobStream = blob.createWriteStream({
+        metadata,
+        gzip: true,
+      });
+
+      blobStream.on('error', (error) =>
+        res.status(500).json({
+          errors: [error.message],
+          message: 'Update Avatar Failed',
+          data: null,
+        })
+      );
+
+      blobStream.on('finish', async () => {
+        urlImageProofTransfer = `https://firebasestorage.googleapis.com/v0/b/${
+          bucket.name
+        }/o/${encodeURIComponent(filePath)}?alt=media&token=${
+          metadata.metadata.firebaseStorageDownloadTokens
+        }`;
+      });
+
+      const blobStreamEnd = promisify(blobStream.end).bind(blobStream);
+
+      await blobStreamEnd(req.file.buffer);
+    } else {
+      urlImageProofTransfer = req.body.imageProofTransfer;
+    }
 
     const result = await WisePayment.create({
       wiseEmail: wisePaymentBody.data.wiseEmail,
       wiseAccountName: wisePaymentBody.data.wiseAccountName,
-      imageProofTransfer: req.body.imageProofTransfer,
+      imageProofTransfer: urlImageProofTransfer,
       paymentId: getPaymentId.paymentId,
     });
-
-    console.log(result);
 
     if (!result) {
       await t.rollback();
@@ -353,7 +466,9 @@ const setWisePayment = async (req, res, next) => {
       wiseEmail: result.wiseEmail,
       wiseAccountName: result.wiseAccountName,
       imageProofTransfer: result.imageProofTransfer,
-      createdAt: moment(result.createdAt).tz('Asia/Singapore').format('YYYY-MM-DD HH:mm:ss'),
+      createdAt: moment(result.createdAt)
+        .tz('Asia/Singapore')
+        .format('YYYY-MM-DD HH:mm:ss'),
     };
 
     let sendPaymentMails = [];
@@ -397,12 +512,11 @@ const setWisePayment = async (req, res, next) => {
 
 const getPaymentById = async (req, res, next) => {
   try {
-
     const booking_id = req.params.bookingId;
 
     const result = await Payment.findOne({
       where: {
-        bookingId: booking_id
+        bookingId: booking_id,
       },
       include: [
         {
@@ -439,26 +553,32 @@ const getPaymentById = async (req, res, next) => {
       rating: result.Booking.Product.rating,
       location: result.Booking.Product.location,
       thumbnail: result.Booking.Product.thumbnail,
-    }
+    };
 
     return res.status(200).json({
       errors: [],
       message: 'Get Payment by booking id successfully',
       data: formatResult,
-    })
+    });
   } catch (error) {
     next(
       new Error(
         'controllers/paymentController.js:getPaymentById - ' + error.message
       )
-    )
+    );
   }
-}
+};
 
 const getAllPaymentAdmin = async (req, res, next) => {
   try {
     const result = await Payment.findAll({
-      attributes: ['paymentId', 'total', 'method', 'paymentStatus', 'updatedAt'],
+      attributes: [
+        'paymentId',
+        'total',
+        'method',
+        'paymentStatus',
+        'updatedAt',
+      ],
       include: [
         {
           model: Booking,
@@ -743,17 +863,58 @@ const updatePaymentAdmin = async (req, res, next) => {
         });
       }
 
-      const destroyPayment = await Payment.destroy({
-        where: {
-          paymentId: idPayment,
+      const updatePayment = await Payment.update(
+        {
+          paymentStatus: status,
         },
-        transaction: t,
-      });
+        {
+          where: {
+            paymentId: idPayment,
+          },
+        },
+        {
+          transaction: t,
+        }
+      );
 
-      if (!destroyPayment) {
+      if (!updatePayment) {
         await t.rollback();
         return res.status(404).json({
           errors: ['No payment found'],
+          message: 'Update Payment Failed',
+          data: null,
+        });
+      }
+
+      const getMethodPayment = await Payment.findOne({
+        where: {
+          paymentId: idPayment,
+        },
+        attributes: ['method'],
+      });
+
+      let destroyPaymentMethod = null;
+
+      if (getMethodPayment.dataValues.method == 'Bank') {
+        destroyPaymentMethod = BankPayment.destroy({
+          where: {
+            paymentId: idPayment,
+          },
+          transaction: t,
+        });
+      } else if (getMethodPayment.dataValues.method == 'Wise') {
+        destroyPaymentMethod = WisePayment.destroy({
+          where: {
+            paymentId: idPayment,
+          },
+          transaction: t,
+        });
+      }
+
+      if (!destroyPaymentMethod) {
+        await t.rollback();
+        return res.status(404).json({
+          errors: ['No payment method found'],
           message: 'Update Payment Failed',
           data: null,
         });
@@ -787,7 +948,7 @@ const updatePaymentAdmin = async (req, res, next) => {
       return res.status(200).json({
         errors: [],
         message:
-          'Payment has been rejected and destroyed. Email confirmation has been sent to the customer.',
+          'Payment has been rejected. Email confirmation has been sent to the customer.',
         data: null,
       });
     } else if (status == 'Approved') {
