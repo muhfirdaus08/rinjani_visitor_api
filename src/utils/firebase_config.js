@@ -20,7 +20,7 @@ const serviceAccount = {
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
-  storageBucket: 'gs://rinjani-visitor-16c47.appspot.com',
+  storageBucket: 'gs://uploadfile-92b82.appspot.com',
 });
 
 export default admin;

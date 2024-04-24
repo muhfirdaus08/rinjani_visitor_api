@@ -492,7 +492,7 @@ const avatarUser = async (req, res, next) => {
         });
       }
 
-      const folderName = 'avatar';
+      const folderName = 'rinjanivisitor';
       const fileName = `${uuidv4()}-${req.file.originalname}`;
       const filePath = `${folderName}/${fileName}`;
 
