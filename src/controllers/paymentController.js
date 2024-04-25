@@ -130,7 +130,7 @@ const setBankPayment = async (req, res, next) => {
       });
     }
 
-    let urlImageProofTransfer = "";
+    let urlImageProofTransfer = '';
 
     if (uploadedFileName) {
       const allowedImageFormats = ['image/jpeg', 'image/jpg', 'image/png'];
@@ -347,7 +347,7 @@ const setWisePayment = async (req, res, next) => {
       });
     }
 
-    let urlImageProofTransfer = "";
+    let urlImageProofTransfer = '';
 
     if (uploadedFileName) {
       const allowedImageFormats = ['image/jpeg', 'image/jpg', 'image/png'];
@@ -518,18 +518,6 @@ const getPaymentById = async (req, res, next) => {
       where: {
         bookingId: booking_id,
       },
-      include: [
-        {
-          model: Booking,
-          attributes: ['bookingId', 'productId'],
-          include: [
-            {
-              model: Product,
-              attributes: ['title', 'rating', 'location', 'thumbnail'],
-            },
-          ],
-        },
-      ],
     });
 
     if (!result) {
@@ -540,6 +528,34 @@ const getPaymentById = async (req, res, next) => {
       });
     }
 
+    let resultPaymentMethod;
+
+    if (result.method == 'Bank') {
+      resultPaymentMethod = await BankPayment.findOne({
+        attributes: [
+          'bankName',
+          'bankAccountName',
+          'imageProofTransfer',
+          'createdAt',
+        ],
+        where: {
+          paymentId: resultPayment.paymentId,
+        },
+      });
+    } else if (result.method == 'Wise') {
+      resultPaymentMethod = await WisePayment.findOne({
+        attributes: [
+          'wiseEmail',
+          'wiseAccountName',
+          'imageProofTransfer',
+          'createdAt',
+        ],
+        where: {
+          paymentId: resultPayment.paymentId,
+        },
+      });
+    }
+
     const formatResult = {
       paymentId: result.paymentId,
       tax: result.tax,
@@ -547,12 +563,14 @@ const getPaymentById = async (req, res, next) => {
       total: result.total,
       method: result.method,
       paymentStatus: result.paymentStatus,
-      bookingId: result.Booking.bookingId,
-      productId: result.Booking.Product.productId,
-      title: result.Booking.Product.title,
-      rating: result.Booking.Product.rating,
-      location: result.Booking.Product.location,
-      thumbnail: result.Booking.Product.thumbnail,
+      bankNameOrWiseEmail: resultPaymentMethod.bankName
+        ? resultPaymentMethod.bankName
+        : resultPaymentMethod.wiseEmail,
+      bankAccountNameOrWiseAccountName: resultPaymentMethod.bankAccountName
+        ? resultPaymentMethod.bankAccountName
+        : resultPaymentMethod.wiseAccountName,
+      imageProofTransfer: resultPaymentMethod.imageProofTransfer,
+      paymentDate: resultPaymentMethod.createdAt,
     };
 
     return res.status(200).json({
