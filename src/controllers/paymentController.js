@@ -539,7 +539,7 @@ const getPaymentById = async (req, res, next) => {
           'createdAt',
         ],
         where: {
-          paymentId: resultPayment.paymentId,
+          paymentId: result.paymentId,
         },
       });
     } else if (result.method == 'Wise') {
@@ -551,7 +551,7 @@ const getPaymentById = async (req, res, next) => {
           'createdAt',
         ],
         where: {
-          paymentId: resultPayment.paymentId,
+          paymentId: result.paymentId,
         },
       });
     }
