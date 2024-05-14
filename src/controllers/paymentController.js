@@ -563,14 +563,14 @@ const getPaymentById = async (req, res, next) => {
       total: result.total,
       method: result.method,
       paymentStatus: result.paymentStatus,
-      bankNameOrWiseEmail: resultPaymentMethod.bankName
+      bankNameOrWiseEmail: resultPaymentMethod && resultPaymentMethod.bankName
         ? resultPaymentMethod.bankName
-        : resultPaymentMethod.wiseEmail,
-      bankAccountNameOrWiseAccountName: resultPaymentMethod.bankAccountName
+        : resultPaymentMethod && resultPaymentMethod.wiseEmail,
+      bankAccountNameOrWiseAccountName: resultPaymentMethod && resultPaymentMethod.bankAccountName
         ? resultPaymentMethod.bankAccountName
-        : resultPaymentMethod.wiseAccountName,
-      imageProofTransfer: resultPaymentMethod.imageProofTransfer,
-      paymentDate: resultPaymentMethod.createdAt,
+        : resultPaymentMethod && resultPaymentMethod.wiseAccountName,
+      imageProofTransfer: resultPaymentMethod && resultPaymentMethod.imageProofTransfer,
+      paymentDate: resultPaymentMethod && resultPaymentMethod.createdAt,
     };
 
     return res.status(200).json({
