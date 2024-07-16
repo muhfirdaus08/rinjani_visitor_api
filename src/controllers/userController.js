@@ -67,7 +67,7 @@ const setUser = async (req, res, next) => {
         data: null,
       });
     } else {
-      User.destroy(
+      await User.destroy(
         {
           where: {
             email: req.body.email,
@@ -86,9 +86,14 @@ const setUser = async (req, res, next) => {
       password: req.body.password,
     };
 
+    // Set the expireTime to 24 hours after creation
+    const createdAt = moment().tz('Asia/Singapore');
+    const expireTime = createdAt.clone().add(24, 'hours').format('YYYY-MM-DD HH:mm:ss');
+
     const newUser = await User.create(
       {
         ...userData,
+        expireTime: expireTime,
       },
       {
         transaction: t,

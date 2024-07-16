@@ -1,0 +1,28 @@
+ [LOGGER] 2024-07-15 05:30:04.247 PM error : controllers/fotoController.js:getChartByCategory - Invalid value { model: Product }
+ [LOGGER] 2024-07-15 05:30:38.330 PM error : controllers/fotoController.js:getChartByCategory - Invalid value { model: Product }
+ [LOGGER] 2024-07-15 05:30:39.645 PM error : controllers/fotoController.js:getChartByCategory - Invalid value { model: Product }
+ [LOGGER] 2024-07-15 08:13:48.936 PM error : controllers/bookingController.js:getBookingByCategory - Category is not defined
+ [LOGGER] 2024-07-15 08:14:53.533 PM error : controllers/bookingController.js:getBookingByCategory - Unknown column 'bookingId' in 'field list'
+ [LOGGER] 2024-07-15 08:16:23.790 PM error : controllers/bookingController.js:getBookingByCategory - Unknown column 'productId' in 'field list'
+ [LOGGER] 2024-07-15 08:17:50.758 PM error : controllers/bookingController.js:getBookingByCategory - Unknown column 'product->category.category' in 'field list'
+ [LOGGER] 2024-07-15 08:18:48.712 PM error : controllers/bookingController.js:getBookingByCategory - Unknown column 'product.category.category' in 'field list'
+ [LOGGER] 2024-07-15 08:19:06.244 PM error : controllers/bookingController.js:getBookingByCategory - Unknown column 'Product.Category.category' in 'field list'
+ [LOGGER] 2024-07-15 08:19:45.174 PM error : controllers/bookingController.js:getBookingByCategory - Unknown column 'Product.category.category' in 'field list'
+ [LOGGER] 2024-07-15 08:20:19.184 PM error : controllers/bookingController.js:getBookingByCategory - Unknown column 'product.category.category' in 'field list'
+ [LOGGER] 2024-07-15 08:21:13.548 PM error : controllers/bookingController.js:getBookingByCategory - Unknown column 'Product->Category.category' in 'field list'
+ [LOGGER] 2024-07-15 08:21:25.201 PM error : controllers/bookingController.js:getBookingByCategory - Unknown column 'Product->Category.category' in 'group statement'
+ [LOGGER] 2024-07-15 08:21:32.640 PM error : controllers/bookingController.js:getBookingByCategory - Unknown column 'Product->Category.category' in 'field list'
+ [LOGGER] 2024-07-15 08:23:41.827 PM error : controllers/bookingController.js:getBookingByCategory - Product is associated to Booking using an alias. You've included an alias (product), but it does not match the alias(es) defined in your association (Product).
+ [LOGGER] 2024-07-15 08:26:23.831 PM error : controllers/bookingController.js:getBookingByCategory - Unknown column 'Booking.bookingId' in 'field list'
+ [LOGGER] 2024-07-15 08:26:49.517 PM error : controllers/bookingController.js:getBookingByCategory - Unknown column 'bookingId' in 'field list'
+ [LOGGER] 2024-07-15 08:27:26.889 PM error : controllers/bookingController.js:getBookingByCategory - Unknown column 'bookingId' in 'field list'
+ [LOGGER] 2024-07-15 08:27:47.079 PM error : controllers/bookingController.js:getBookingByCategory - Unknown column 'bookingId' in 'field list'
+ [LOGGER] 2024-07-15 08:29:38.689 PM error : controllers/bookingController.js:getBookingByCategory - In aggregated query without GROUP BY, expression #1 of SELECT list contains nonaggregated column 'rinjani-db-new.Booking.booking_id'; this is incompatible with sql_mode=only_full_group_by
+ [LOGGER] 2024-07-15 08:34:15.595 PM error : controllers/bookingController.js:getBookingByCategory - Product is associated to category using an alias. You've included an alias (products), but it does not match the alias(es) defined in your association (Products).
+ [LOGGER] 2024-07-15 08:34:40.403 PM error : controllers/bookingController.js:getBookingByCategory - Unknown column 'Category.category' in 'group statement'
+ [LOGGER] 2024-07-15 08:42:07.597 PM error : controllers/bookingController.js:getBookingByCategory - Unknown column 'Products->Bookings.bookingId' in 'field list'
+ [LOGGER] 2024-07-15 08:53:07.369 PM error : controllers/bookingController.js:getPaymentByCategory - Unknown column 'Products->Bookings->Payments.payment_id' in 'field list'
+ [LOGGER] 2024-07-15 09:11:09.778 PM error : controllers/bookingController.js:getPaymentEachCategory - Unknown column 'Products->Bookings->Payment.status' in 'on clause'
+ [LOGGER] 2024-07-15 09:16:40.993 PM error : controllers/bookingController.js:getPaymentByCategory - Expression #3 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'rinjani-db-new.Products->Bookings->Payment.payment_id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+ [LOGGER] 2024-07-15 09:17:14.617 PM error : controllers/bookingController.js:getPaymentByCategory - Expression #3 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'rinjani-db-new.Products->Bookings->Payment.payment_id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+ [LOGGER] 2024-07-15 09:18:38.728 PM error : controllers/bookingController.js:getPaymentByCategory - Expression #3 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'rinjani-db-new.Products->Bookings->Payment.payment_id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
