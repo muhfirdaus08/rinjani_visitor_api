@@ -15,6 +15,10 @@ const AddOnsModel = sequelize.define(
       type: Sequelize.STRING,
       allowNull: false,
     },
+    price: {
+      type: Sequelize.INTEGER,
+      allowNull: true,
+    }
   },
   {
     tableName: 'addOnsModel',

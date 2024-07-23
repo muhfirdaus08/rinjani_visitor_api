@@ -7,6 +7,7 @@ const setAddOns = async (req, res, next) => {
   const t = await sequelize.transaction();
   const valid = {
     addOnsName: 'required',
+    price: 'required, isDecimal',
   };
   try {
     const addOnsData = await dataValid(valid, req.body);
@@ -20,14 +21,15 @@ const setAddOns = async (req, res, next) => {
 
     const result = await AddOnsModel.create(
       {
-        ...addOnsData.data,
+        addOnsName: addOnsData.data.addOnsName,
+        price: addOnsData.data.price,
       },
       {
         transaction: t,
       }
     );
 
-    if (result[0] == 0) {
+    if (result[0] === 0) {
       return res.status(404).json({
         errors: ['Failed to save addOns to database'],
         message: 'Update Failed',
@@ -37,7 +39,7 @@ const setAddOns = async (req, res, next) => {
       await t.commit();
       return res.status(201).json({
         errors: [],
-        message: 'addOns created successfully',
+        message: 'AddOns created successfully',
         data: result,
       });
     }
@@ -187,7 +189,7 @@ const updateAddOns = async (req, res, next) => {
       }
     );
 
-    if (result[0] == 0) {
+    if (result[0] === 0) {
       await t.rollback();
       return res.status(404).json({
         errors: ['Failed to save addOns to database'],
@@ -253,7 +255,7 @@ const updateAddOns = async (req, res, next) => {
 const deleteAddOns = async (req, res, next) => {
   const t = await sequelize.transaction();
   try {
-    const { idaddons } = req.body;
+    let { idaddons } = req.body;
     const idproduct = req.params.productId;
 
      // Ensure idaddons is an array
